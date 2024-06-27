@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciador de Livros</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 1000px; margin: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+        .text-right, .text-center { text-align: right; }
+        .btn { padding: 8px; text-decoration: none; color: white; background-color: #007bff; border: none; border-radius: 5px; margin-left: 4px; }
+        .btn-danger { background-color: #dc3545; }
+        .btn-warning { background-color: #ffc107; }
+        .btn-success { background-color: #28a745; }
+        .btn-info { background-color: #17a2b8; }
+        .mt-20 { margin-top: 20px; }
+        .form-search { display: flex; justify-content: center; margin-bottom: 20px; }
+        input[type="text"] { padding: 8px; width: 300px; border: 1px solid #ccc; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Gerenciador de Livros</h1>
+    
+    <div class="text-right mt-20">
+        <a href="/livros/livros_view" class="btn">Listar Livros</a>
+        <a href="/autores" class="btn btn-success">Cadastrar Autor</a>
+        <a href="/categorias" class="btn btn-success">Cadastrar Categoria</a>
+        <a href="/editoras" class="btn btn-success">Cadastrar Editora</a>
+        <a href="/grupo-precificacao" class="btn btn-success">Cadastrar Grupos de Precificação</a>
+    </div>
+    
+</div>
+
+
+</body>
+</html>
